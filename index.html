@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokenpô</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gluten&display=swap" rel="stylesheet">
+</head>
+
+<body background="./img/Jokenpo.jpg">
+    <section class="Box">
+        <h1>Jokenpô</h1>
+        <div>
+            <button id="rock" onclick=" jokenpo ('Rock'), Change">&#x1F44A;&#x1F3FC;</button>
+            <button id="paper" onclick="jokenpo('Paper')">&#x270B;&#x1F3FC; </button>
+            <button id="scissors" onclick="jokenpo('Scissors')">&#x270C;&#x1F3FC;</button>
+        </div>
+        <p id="result"></p>
+        <p>   Sua Pontuação: <span id="user-score">0</span></p>
+     
+        <p>Pontuaçao Alexia: <span id="ia-score">0</span></p>
+        <br>
+
+
+    </section>
+
+
+
+</body>
+<script src="js.js"></script>
+</html>
